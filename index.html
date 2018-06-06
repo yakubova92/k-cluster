@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+
+    <!-- Bootstrap and CSS here-->
+    <link rel="stylesheet" typ="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+  </head>
+  <body id='body'>
+
+      <div id='app' class="container">
+
+        <div id='headers' class="center">
+          <!-- Title and subtitles! -->
+          <h1 id='title'>K-Means Clustering</h1>
+        </div>
+
+        <div id='main'>
+          <div id='input-parent' class="center">
+            <!-- Player's guess input, and submit button -->
+              <input id="player-input" class='center' placeholder="k-value", maxlength="1" ></input><br>
+              <button id='go-button' class='btn btn-success'>GO!</button>
+            </div>
+          </div>
+
+
+          <!-- <div>
+            <br>
+            <canvas id="canvas" width="690" height="651" style="cursor:crosshair;background:url(http://www.mundoanimalia.com/images/articles/66/58/06/7f6ffaa6bb0b408017b62254211691b5/gallina.jpg)"></canvas>
+          </div> -->
+          <div>
+            <canvas id="canvas" width="800" height="760" style="cursor:crosshair;background:url(https://dr282zn36sxxg.cloudfront.net/datastreams/f-d%3A842137a1d911b6ef6040c3998ee8dc74c48819337fda82546e87b831%2BIMAGE%2BIMAGE.1)"></canvas>
+          </div>
+        </div>
+
+      </div>
+
+
+
+    <div id='footer' class='center'>
+        <div class= "row">
+
+          <div class='col-sm-4'>
+            <h4>Project by Alla Yakubova</h4>
+          </div>
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+    crossorigin="anonymous"></script>
+    <!-- <script src="index.js"></script> -->
+    <script src="cluster.js"></script>
+  </body>
+</html>
