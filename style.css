@@ -1,19 +1,17 @@
-
 .center {
   text-align: center;
 }
-ul {
+/* ul {
     list-style: none;
     padding: 0;
-}
-li {
+} */
+/* li {
   color: black;
-}
-.guess {
+} */
+/* .guess {
     display: inline;
     font-size: 50px;
     border: .5px solid grey;
-    /* border-radius: 50%; */
     padding: 0px 20px 0px 20px;
     background-color: white;
     font-size: 20pt;
@@ -22,26 +20,23 @@ img {
     display: inline;
     width: 200px;
     height: 100px;
-}
+} */
 body {
   background-color: bisque;
 }
 #app{
   width: 75%;
   padding: 15px;
-  /* background-color: rgba(256, 256, 256, .85) */
 }
 #input-parent {
   width: 260px;
   margin-left: auto;
   margin-right: auto;
 }
-
 #title {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
-.winnerPage {
+/* .winnerPage {
   color: gold;
   background-image: url('confetti.JPG');
 }
@@ -57,9 +52,9 @@ body {
 .loserText {
   background-color: lightgrey;
   border: 2px solid black;
-}
+} */
 
-.burningUp {
+/* .burningUp {
   background-color: rgb(163, 23, 23);
 }
 .lukewarm {
@@ -70,7 +65,7 @@ body {
 }
 .iceCold {
   background-color: rgb(47, 79, 221);
-}
+} */
 
 #player-input {
   width: 160px;
